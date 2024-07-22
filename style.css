@@ -1,0 +1,48 @@
+header {
+    background-color: grey;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+}
+
+img {
+    margin: 4em;
+}
+
+#ST {
+    font-size: 3em;
+    margin-left: 2em;
+}
+
+form {
+    margin-left: 10em;
+}
+
+#auteur {
+    border-top: solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.boutton {
+    background-color: grey;
+    font-size: 15px;
+    color: white;
+}
+
+.titre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.titre2 {
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}

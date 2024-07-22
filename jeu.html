@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jeu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="test.html/data.js"></script>
+    <script src="test.html/meca.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="titre">
+            plan langue
+            <h2 class="titre2">
+                webg2-projet
+            </h2>
+        </h1>
+
+    </header>
+
+    <h1 id="title"></h1>
+
+    <p id="qst"> </p>
+
+    <div id="zone"></div>
+    <p id="message">Cliquez sur un mot pour le placer dans la réponse (à la suite). Cliquez sur un mot de la réponse pour l'enlever.</p>
+    <div id="mots"></div>
+
+    <div id="result"></div>
+    <br>
+    <br>
+    <button class="boutton" onclick="verif()">Verifier</button>
+    <button class="bouttons" style="display: none" onclick="document.location.reload()" id="rejouer">Rejouer</button>
+    <button class="passe" onclick="passe()">Continuer</button>
+    <footer>
+
+        <h3 id="auteur">
+            Auteur: 54889 - Bourouis younes
+        </h3>
+    </footer>
+    <script>
+        displaytitle();
+        afch();
+        qst();
+        displaybutton();
+    </script>
+</body>
+
+</html>
